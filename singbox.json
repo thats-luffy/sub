@@ -66,45 +66,25 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "📢 https://t.me/irnova_proxy",
-      "server": "192.0.2.1",
-      "server_port": 443,
-      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/?fake=1",
-        "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
-      }
-    },
-    {
       "type": "direct",
       "tag": "DIRECT"
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-      "server": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+      "tag": "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+      "server": "panel.djfjdi2828.workers.dev",
       "server_port": 443,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -114,20 +94,43 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-      "server": "8.39.125.59",
+      "tag": "لوفی 108.162.198.231:2087 [VLESS]",
+      "server": "108.162.198.231",
+      "server_port": 2087,
+      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "panel.djfjdi2828.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "panel.djfjdi2828.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "لوفی 104.17.102.163:2083 [VLESS]",
+      "server": "104.17.102.163",
       "server_port": 2083,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -137,20 +140,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-      "server": "104.19.32.54",
-      "server_port": 443,
+      "tag": "لوفی 198.41.223.105:8443 [VLESS]",
+      "server": "198.41.223.105",
+      "server_port": 8443,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -160,20 +163,43 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-      "server": "108.162.198.246",
+      "tag": "لوفی 104.17.125.82:2087 [VLESS]",
+      "server": "104.17.125.82",
+      "server_port": 2087,
+      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "panel.djfjdi2828.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "panel.djfjdi2828.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "لوفی 104.26.5.60:2083 [VLESS]",
+      "server": "104.26.5.60",
       "server_port": 2083,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -183,20 +209,43 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-      "server": "104.19.49.214",
+      "tag": "لوفی 104.19.146.218:2087 [VLESS]",
+      "server": "104.19.146.218",
+      "server_port": 2087,
+      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "panel.djfjdi2828.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "panel.djfjdi2828.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "لوفی 162.159.41.29:2096 [VLESS]",
+      "server": "162.159.41.29",
       "server_port": 2096,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -206,20 +255,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-      "server": "162.159.43.208",
+      "tag": "لوفی 104.19.144.108:2087 [VLESS]",
+      "server": "104.19.144.108",
       "server_port": 2087,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -229,20 +278,43 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-      "server": "104.17.62.79",
+      "tag": "لوفی 104.16.150.138:8443 [VLESS]",
+      "server": "104.16.150.138",
+      "server_port": 8443,
+      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "panel.djfjdi2828.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "panel.djfjdi2828.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "لوفی 162.159.38.165:443 [VLESS]",
+      "server": "162.159.38.165",
       "server_port": 443,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -252,20 +324,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-      "server": "104.17.210.31",
-      "server_port": 2087,
+      "tag": "لوفی 104.17.186.90:2096 [VLESS]",
+      "server": "104.17.186.90",
+      "server_port": 2096,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -275,66 +347,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-      "server": "104.18.33.77",
-      "server_port": 2083,
-      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-      "server": "104.18.33.36",
-      "server_port": 2087,
-      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-      "server": "8.39.125.81",
+      "tag": "لوفی 172.67.67.200:2053 [VLESS]",
+      "server": "172.67.67.200",
       "server_port": 2053,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -344,20 +370,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-      "server": "8.39.125.255",
-      "server_port": 443,
+      "tag": "لوفی 104.17.56.158:2096 [VLESS]",
+      "server": "104.17.56.158",
+      "server_port": 2096,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -367,20 +393,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-      "server": "172.66.2.2",
-      "server_port": 2083,
+      "tag": "لوفی 198.41.223.205:8443 [VLESS]",
+      "server": "198.41.223.205",
+      "server_port": 8443,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -390,20 +416,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-      "server": "104.26.12.140",
-      "server_port": 2053,
+      "tag": "لوفی 172.67.64.184:2096 [VLESS]",
+      "server": "172.67.64.184",
+      "server_port": 2096,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -413,66 +439,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-      "server": "108.162.198.226",
-      "server_port": 2053,
+      "tag": "لوفی 91.193.58.150:8443 [VLESS]",
+      "server": "91.193.58.150",
+      "server_port": 8443,
       "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
       "transport": {
         "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
+          "Host": "panel.djfjdi2828.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-      "server": "104.18.33.197",
-      "server_port": 2053,
-      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]",
-      "server": "104.17.147.210",
-      "server_port": 2083,
-      "uuid": "e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-coral-bridge-700f.djfjdi2828.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-coral-bridge-700f.djfjdi2828.workers.dev",
+        "server_name": "panel.djfjdi2828.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -484,51 +464,50 @@
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
-        "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-        "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-        "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]"
+        "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+        "لوفی 108.162.198.231:2087 [VLESS]",
+        "لوفی 104.17.102.163:2083 [VLESS]",
+        "لوفی 198.41.223.105:8443 [VLESS]",
+        "لوفی 104.17.125.82:2087 [VLESS]",
+        "لوفی 104.26.5.60:2083 [VLESS]",
+        "لوفی 104.19.146.218:2087 [VLESS]",
+        "لوفی 162.159.41.29:2096 [VLESS]",
+        "لوفی 104.19.144.108:2087 [VLESS]",
+        "لوفی 104.16.150.138:8443 [VLESS]",
+        "لوفی 162.159.38.165:443 [VLESS]",
+        "لوفی 104.17.186.90:2096 [VLESS]",
+        "لوفی 172.67.67.200:2053 [VLESS]",
+        "لوفی 104.17.56.158:2096 [VLESS]",
+        "لوفی 198.41.223.205:8443 [VLESS]",
+        "لوفی 172.67.64.184:2096 [VLESS]",
+        "لوفی 91.193.58.150:8443 [VLESS]"
       ]
     },
     {
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-        "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-        "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]"
+        "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+        "لوفی 108.162.198.231:2087 [VLESS]",
+        "لوفی 104.17.102.163:2083 [VLESS]",
+        "لوفی 198.41.223.105:8443 [VLESS]",
+        "لوفی 104.17.125.82:2087 [VLESS]",
+        "لوفی 104.26.5.60:2083 [VLESS]",
+        "لوفی 104.19.146.218:2087 [VLESS]",
+        "لوفی 162.159.41.29:2096 [VLESS]",
+        "لوفی 104.19.144.108:2087 [VLESS]",
+        "لوفی 104.16.150.138:8443 [VLESS]",
+        "لوفی 162.159.38.165:443 [VLESS]",
+        "لوفی 104.17.186.90:2096 [VLESS]",
+        "لوفی 172.67.67.200:2053 [VLESS]",
+        "لوفی 104.17.56.158:2096 [VLESS]",
+        "لوفی 198.41.223.205:8443 [VLESS]",
+        "لوفی 172.67.64.184:2096 [VLESS]",
+        "لوفی 91.193.58.150:8443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -538,53 +517,52 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
-        "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-        "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-        "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]"
+        "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+        "لوفی 108.162.198.231:2087 [VLESS]",
+        "لوفی 104.17.102.163:2083 [VLESS]",
+        "لوفی 198.41.223.105:8443 [VLESS]",
+        "لوفی 104.17.125.82:2087 [VLESS]",
+        "لوفی 104.26.5.60:2083 [VLESS]",
+        "لوفی 104.19.146.218:2087 [VLESS]",
+        "لوفی 162.159.41.29:2096 [VLESS]",
+        "لوفی 104.19.144.108:2087 [VLESS]",
+        "لوفی 104.16.150.138:8443 [VLESS]",
+        "لوفی 162.159.38.165:443 [VLESS]",
+        "لوفی 104.17.186.90:2096 [VLESS]",
+        "لوفی 172.67.67.200:2053 [VLESS]",
+        "لوفی 104.17.56.158:2096 [VLESS]",
+        "لوفی 198.41.223.205:8443 [VLESS]",
+        "لوفی 172.67.64.184:2096 [VLESS]",
+        "لوفی 91.193.58.150:8443 [VLESS]"
       ]
     },
     {
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
-        "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-        "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-        "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]"
+        "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+        "لوفی 108.162.198.231:2087 [VLESS]",
+        "لوفی 104.17.102.163:2083 [VLESS]",
+        "لوفی 198.41.223.105:8443 [VLESS]",
+        "لوفی 104.17.125.82:2087 [VLESS]",
+        "لوفی 104.26.5.60:2083 [VLESS]",
+        "لوفی 104.19.146.218:2087 [VLESS]",
+        "لوفی 162.159.41.29:2096 [VLESS]",
+        "لوفی 104.19.144.108:2087 [VLESS]",
+        "لوفی 104.16.150.138:8443 [VLESS]",
+        "لوفی 162.159.38.165:443 [VLESS]",
+        "لوفی 104.17.186.90:2096 [VLESS]",
+        "لوفی 172.67.67.200:2053 [VLESS]",
+        "لوفی 104.17.56.158:2096 [VLESS]",
+        "لوفی 198.41.223.205:8443 [VLESS]",
+        "لوفی 172.67.64.184:2096 [VLESS]",
+        "لوفی 91.193.58.150:8443 [VLESS]"
       ]
     },
     {
       "type": "selector",
       "tag": "🎯 全球直连",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
         "DIRECT",
         "🚀 节点选择",
         "♻️ 自动选择"
@@ -594,7 +572,6 @@
       "type": "selector",
       "tag": "🛑 全球拦截",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
         "REJECT",
         "DIRECT"
       ]
@@ -603,84 +580,81 @@
       "type": "selector",
       "tag": "🐟 漏网之鱼",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
         "🚀 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-        "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-        "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]"
+        "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+        "لوفی 108.162.198.231:2087 [VLESS]",
+        "لوفی 104.17.102.163:2083 [VLESS]",
+        "لوفی 198.41.223.105:8443 [VLESS]",
+        "لوفی 104.17.125.82:2087 [VLESS]",
+        "لوفی 104.26.5.60:2083 [VLESS]",
+        "لوفی 104.19.146.218:2087 [VLESS]",
+        "لوفی 162.159.41.29:2096 [VLESS]",
+        "لوفی 104.19.144.108:2087 [VLESS]",
+        "لوفی 104.16.150.138:8443 [VLESS]",
+        "لوفی 162.159.38.165:443 [VLESS]",
+        "لوفی 104.17.186.90:2096 [VLESS]",
+        "لوفی 172.67.67.200:2053 [VLESS]",
+        "لوفی 104.17.56.158:2096 [VLESS]",
+        "لوفی 198.41.223.205:8443 [VLESS]",
+        "لوفی 172.67.64.184:2096 [VLESS]",
+        "لوفی 91.193.58.150:8443 [VLESS]"
       ]
     },
     {
       "type": "selector",
       "tag": "☁️ CloudFlareCDN",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
         "🐟 漏网之鱼",
         "🚀 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-        "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-        "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]"
+        "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+        "لوفی 108.162.198.231:2087 [VLESS]",
+        "لوفی 104.17.102.163:2083 [VLESS]",
+        "لوفی 198.41.223.105:8443 [VLESS]",
+        "لوفی 104.17.125.82:2087 [VLESS]",
+        "لوفی 104.26.5.60:2083 [VLESS]",
+        "لوفی 104.19.146.218:2087 [VLESS]",
+        "لوفی 162.159.41.29:2096 [VLESS]",
+        "لوفی 104.19.144.108:2087 [VLESS]",
+        "لوفی 104.16.150.138:8443 [VLESS]",
+        "لوفی 162.159.38.165:443 [VLESS]",
+        "لوفی 104.17.186.90:2096 [VLESS]",
+        "لوفی 172.67.67.200:2053 [VLESS]",
+        "لوفی 104.17.56.158:2096 [VLESS]",
+        "لوفی 198.41.223.205:8443 [VLESS]",
+        "لوفی 172.67.64.184:2096 [VLESS]",
+        "لوفی 91.193.58.150:8443 [VLESS]"
       ]
     },
     {
       "type": "selector",
       "tag": "GLOBAL",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
         "DIRECT",
-        "سرویس رایگان نوا nova-coral-bridge-700f.djfjdi2828.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.59:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.32.54:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.246:2083 [VLESS]",
-        "سرویس رایگان نوا 104.19.49.214:2096 [VLESS]",
-        "سرویس رایگان نوا 162.159.43.208:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.62.79:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.210.31:2087 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.77:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.36:2087 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.81:2053 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.255:443 [VLESS]",
-        "سرویس رایگان نوا 172.66.2.2:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.12.140:2053 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.226:2053 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.197:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.147.210:2083 [VLESS]"
+        "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]",
+        "لوفی 108.162.198.231:2087 [VLESS]",
+        "لوفی 104.17.102.163:2083 [VLESS]",
+        "لوفی 198.41.223.105:8443 [VLESS]",
+        "لوفی 104.17.125.82:2087 [VLESS]",
+        "لوفی 104.26.5.60:2083 [VLESS]",
+        "لوفی 104.19.146.218:2087 [VLESS]",
+        "لوفی 162.159.41.29:2096 [VLESS]",
+        "لوفی 104.19.144.108:2087 [VLESS]",
+        "لوفی 104.16.150.138:8443 [VLESS]",
+        "لوفی 162.159.38.165:443 [VLESS]",
+        "لوفی 104.17.186.90:2096 [VLESS]",
+        "لوفی 172.67.67.200:2053 [VLESS]",
+        "لوفی 104.17.56.158:2096 [VLESS]",
+        "لوفی 198.41.223.205:8443 [VLESS]",
+        "لوفی 172.67.64.184:2096 [VLESS]",
+        "لوفی 91.193.58.150:8443 [VLESS]"
       ]
     },
     {
