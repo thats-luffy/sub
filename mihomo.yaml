@@ -29,23 +29,23 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]", server: panel.djfjdi2828.workers.dev, port: 443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 108.162.198.231:2087 [VLESS]", server: 108.162.198.231, port: 2087, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.17.102.163:2083 [VLESS]", server: 104.17.102.163, port: 2083, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 198.41.223.105:8443 [VLESS]", server: 198.41.223.105, port: 8443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.17.125.82:2087 [VLESS]", server: 104.17.125.82, port: 2087, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.26.5.60:2083 [VLESS]", server: 104.26.5.60, port: 2083, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.19.146.218:2087 [VLESS]", server: 104.19.146.218, port: 2087, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 162.159.41.29:2096 [VLESS]", server: 162.159.41.29, port: 2096, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.19.144.108:2087 [VLESS]", server: 104.19.144.108, port: 2087, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.16.150.138:8443 [VLESS]", server: 104.16.150.138, port: 8443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 162.159.38.165:443 [VLESS]", server: 162.159.38.165, port: 443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.17.186.90:2096 [VLESS]", server: 104.17.186.90, port: 2096, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 172.67.67.200:2053 [VLESS]", server: 172.67.67.200, port: 2053, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 104.17.56.158:2096 [VLESS]", server: 104.17.56.158, port: 2096, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 198.41.223.205:8443 [VLESS]", server: 198.41.223.205, port: 8443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 172.67.64.184:2096 [VLESS]", server: 172.67.64.184, port: 2096, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
-  - {name: "لوفی 91.193.58.150:8443 [VLESS]", server: 91.193.58.150, port: 8443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی panel.djfjdi2828.workers.dev:443 [VLESS]", server: panel.djfjdi2828.workers.dev, port: 443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.19.147.138:8443 [VLESS]", server: 104.19.147.138, port: 8443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 162.159.46.91:443 [VLESS]", server: 162.159.46.91, port: 443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.17.107.37:2053 [VLESS]", server: 104.17.107.37, port: 2053, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.18.33.89:2096 [VLESS]", server: 104.18.33.89, port: 2096, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 188.164.248.244:8443 [VLESS]", server: 188.164.248.244, port: 8443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 188.164.248.43:2083 [VLESS]", server: 188.164.248.43, port: 2083, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.26.2.250:2053 [VLESS]", server: 104.26.2.250, port: 2053, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.16.249.66:443 [VLESS]", server: 104.16.249.66, port: 443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 198.41.223.78:2087 [VLESS]", server: 198.41.223.78, port: 2087, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.17.29.37:2053 [VLESS]", server: 104.17.29.37, port: 2053, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 108.162.198.185:443 [VLESS]", server: 108.162.198.185, port: 443, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 8.35.211.112:2087 [VLESS]", server: 8.35.211.112, port: 2087, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.17.184.196:2087 [VLESS]", server: 104.17.184.196, port: 2087, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.17.155.164:2096 [VLESS]", server: 104.17.155.164, port: 2096, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 104.17.145.19:2083 [VLESS]", server: 104.17.145.19, port: 2083, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
+  - {name: "لوفی 162.159.42.189:2096 [VLESS]", server: 162.159.42.189, port: 2096, type: vless, uuid: e63ebee3-f2e8-4ea4-837f-d4d1a29e0b6b, tls: true, skip-cert-verify: false, servername: panel.djfjdi2828.workers.dev, client-fingerprint: 360, network: ws, ws-opts: {path: /, headers: {Host: panel.djfjdi2828.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -55,22 +55,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - لوفی panel.djfjdi2828.workers.dev:443 [VLESS]
-      - لوفی 108.162.198.231:2087 [VLESS]
-      - لوفی 104.17.102.163:2083 [VLESS]
-      - لوفی 198.41.223.105:8443 [VLESS]
-      - لوفی 104.17.125.82:2087 [VLESS]
-      - لوفی 104.26.5.60:2083 [VLESS]
-      - لوفی 104.19.146.218:2087 [VLESS]
-      - لوفی 162.159.41.29:2096 [VLESS]
-      - لوفی 104.19.144.108:2087 [VLESS]
-      - لوفی 104.16.150.138:8443 [VLESS]
-      - لوفی 162.159.38.165:443 [VLESS]
-      - لوفی 104.17.186.90:2096 [VLESS]
-      - لوفی 172.67.67.200:2053 [VLESS]
-      - لوفی 104.17.56.158:2096 [VLESS]
-      - لوفی 198.41.223.205:8443 [VLESS]
-      - لوفی 172.67.64.184:2096 [VLESS]
-      - لوفی 91.193.58.150:8443 [VLESS]
+      - لوفی 104.19.147.138:8443 [VLESS]
+      - لوفی 162.159.46.91:443 [VLESS]
+      - لوفی 104.17.107.37:2053 [VLESS]
+      - لوفی 104.18.33.89:2096 [VLESS]
+      - لوفی 188.164.248.244:8443 [VLESS]
+      - لوفی 188.164.248.43:2083 [VLESS]
+      - لوفی 104.26.2.250:2053 [VLESS]
+      - لوفی 104.16.249.66:443 [VLESS]
+      - لوفی 198.41.223.78:2087 [VLESS]
+      - لوفی 104.17.29.37:2053 [VLESS]
+      - لوفی 108.162.198.185:443 [VLESS]
+      - لوفی 8.35.211.112:2087 [VLESS]
+      - لوفی 104.17.184.196:2087 [VLESS]
+      - لوفی 104.17.155.164:2096 [VLESS]
+      - لوفی 104.17.145.19:2083 [VLESS]
+      - لوفی 162.159.42.189:2096 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -78,44 +78,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - لوفی panel.djfjdi2828.workers.dev:443 [VLESS]
-      - لوفی 108.162.198.231:2087 [VLESS]
-      - لوفی 104.17.102.163:2083 [VLESS]
-      - لوفی 198.41.223.105:8443 [VLESS]
-      - لوفی 104.17.125.82:2087 [VLESS]
-      - لوفی 104.26.5.60:2083 [VLESS]
-      - لوفی 104.19.146.218:2087 [VLESS]
-      - لوفی 162.159.41.29:2096 [VLESS]
-      - لوفی 104.19.144.108:2087 [VLESS]
-      - لوفی 104.16.150.138:8443 [VLESS]
-      - لوفی 162.159.38.165:443 [VLESS]
-      - لوفی 104.17.186.90:2096 [VLESS]
-      - لوفی 172.67.67.200:2053 [VLESS]
-      - لوفی 104.17.56.158:2096 [VLESS]
-      - لوفی 198.41.223.205:8443 [VLESS]
-      - لوفی 172.67.64.184:2096 [VLESS]
-      - لوفی 91.193.58.150:8443 [VLESS]
+      - لوفی 104.19.147.138:8443 [VLESS]
+      - لوفی 162.159.46.91:443 [VLESS]
+      - لوفی 104.17.107.37:2053 [VLESS]
+      - لوفی 104.18.33.89:2096 [VLESS]
+      - لوفی 188.164.248.244:8443 [VLESS]
+      - لوفی 188.164.248.43:2083 [VLESS]
+      - لوفی 104.26.2.250:2053 [VLESS]
+      - لوفی 104.16.249.66:443 [VLESS]
+      - لوفی 198.41.223.78:2087 [VLESS]
+      - لوفی 104.17.29.37:2053 [VLESS]
+      - لوفی 108.162.198.185:443 [VLESS]
+      - لوفی 8.35.211.112:2087 [VLESS]
+      - لوفی 104.17.184.196:2087 [VLESS]
+      - لوفی 104.17.155.164:2096 [VLESS]
+      - لوفی 104.17.145.19:2083 [VLESS]
+      - لوفی 162.159.42.189:2096 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - لوفی panel.djfjdi2828.workers.dev:443 [VLESS]
-      - لوفی 108.162.198.231:2087 [VLESS]
-      - لوفی 104.17.102.163:2083 [VLESS]
-      - لوفی 198.41.223.105:8443 [VLESS]
-      - لوفی 104.17.125.82:2087 [VLESS]
-      - لوفی 104.26.5.60:2083 [VLESS]
-      - لوفی 104.19.146.218:2087 [VLESS]
-      - لوفی 162.159.41.29:2096 [VLESS]
-      - لوفی 104.19.144.108:2087 [VLESS]
-      - لوفی 104.16.150.138:8443 [VLESS]
-      - لوفی 162.159.38.165:443 [VLESS]
-      - لوفی 104.17.186.90:2096 [VLESS]
-      - لوفی 172.67.67.200:2053 [VLESS]
-      - لوفی 104.17.56.158:2096 [VLESS]
-      - لوفی 198.41.223.205:8443 [VLESS]
-      - لوفی 172.67.64.184:2096 [VLESS]
-      - لوفی 91.193.58.150:8443 [VLESS]
+      - لوفی 104.19.147.138:8443 [VLESS]
+      - لوفی 162.159.46.91:443 [VLESS]
+      - لوفی 104.17.107.37:2053 [VLESS]
+      - لوفی 104.18.33.89:2096 [VLESS]
+      - لوفی 188.164.248.244:8443 [VLESS]
+      - لوفی 188.164.248.43:2083 [VLESS]
+      - لوفی 104.26.2.250:2053 [VLESS]
+      - لوفی 104.16.249.66:443 [VLESS]
+      - لوفی 198.41.223.78:2087 [VLESS]
+      - لوفی 104.17.29.37:2053 [VLESS]
+      - لوفی 108.162.198.185:443 [VLESS]
+      - لوفی 8.35.211.112:2087 [VLESS]
+      - لوفی 104.17.184.196:2087 [VLESS]
+      - لوفی 104.17.155.164:2096 [VLESS]
+      - لوفی 104.17.145.19:2083 [VLESS]
+      - لوفی 162.159.42.189:2096 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -123,22 +123,22 @@ proxy-groups:
     interval: 180
     proxies:
       - لوفی panel.djfjdi2828.workers.dev:443 [VLESS]
-      - لوفی 108.162.198.231:2087 [VLESS]
-      - لوفی 104.17.102.163:2083 [VLESS]
-      - لوفی 198.41.223.105:8443 [VLESS]
-      - لوفی 104.17.125.82:2087 [VLESS]
-      - لوفی 104.26.5.60:2083 [VLESS]
-      - لوفی 104.19.146.218:2087 [VLESS]
-      - لوفی 162.159.41.29:2096 [VLESS]
-      - لوفی 104.19.144.108:2087 [VLESS]
-      - لوفی 104.16.150.138:8443 [VLESS]
-      - لوفی 162.159.38.165:443 [VLESS]
-      - لوفی 104.17.186.90:2096 [VLESS]
-      - لوفی 172.67.67.200:2053 [VLESS]
-      - لوفی 104.17.56.158:2096 [VLESS]
-      - لوفی 198.41.223.205:8443 [VLESS]
-      - لوفی 172.67.64.184:2096 [VLESS]
-      - لوفی 91.193.58.150:8443 [VLESS]
+      - لوفی 104.19.147.138:8443 [VLESS]
+      - لوفی 162.159.46.91:443 [VLESS]
+      - لوفی 104.17.107.37:2053 [VLESS]
+      - لوفی 104.18.33.89:2096 [VLESS]
+      - لوفی 188.164.248.244:8443 [VLESS]
+      - لوفی 188.164.248.43:2083 [VLESS]
+      - لوفی 104.26.2.250:2053 [VLESS]
+      - لوفی 104.16.249.66:443 [VLESS]
+      - لوفی 198.41.223.78:2087 [VLESS]
+      - لوفی 104.17.29.37:2053 [VLESS]
+      - لوفی 108.162.198.185:443 [VLESS]
+      - لوفی 8.35.211.112:2087 [VLESS]
+      - لوفی 104.17.184.196:2087 [VLESS]
+      - لوفی 104.17.155.164:2096 [VLESS]
+      - لوفی 104.17.145.19:2083 [VLESS]
+      - لوفی 162.159.42.189:2096 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -159,22 +159,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - لوفی panel.djfjdi2828.workers.dev:443 [VLESS]
-      - لوفی 108.162.198.231:2087 [VLESS]
-      - لوفی 104.17.102.163:2083 [VLESS]
-      - لوفی 198.41.223.105:8443 [VLESS]
-      - لوفی 104.17.125.82:2087 [VLESS]
-      - لوفی 104.26.5.60:2083 [VLESS]
-      - لوفی 104.19.146.218:2087 [VLESS]
-      - لوفی 162.159.41.29:2096 [VLESS]
-      - لوفی 104.19.144.108:2087 [VLESS]
-      - لوفی 104.16.150.138:8443 [VLESS]
-      - لوفی 162.159.38.165:443 [VLESS]
-      - لوفی 104.17.186.90:2096 [VLESS]
-      - لوفی 172.67.67.200:2053 [VLESS]
-      - لوفی 104.17.56.158:2096 [VLESS]
-      - لوفی 198.41.223.205:8443 [VLESS]
-      - لوفی 172.67.64.184:2096 [VLESS]
-      - لوفی 91.193.58.150:8443 [VLESS]
+      - لوفی 104.19.147.138:8443 [VLESS]
+      - لوفی 162.159.46.91:443 [VLESS]
+      - لوفی 104.17.107.37:2053 [VLESS]
+      - لوفی 104.18.33.89:2096 [VLESS]
+      - لوفی 188.164.248.244:8443 [VLESS]
+      - لوفی 188.164.248.43:2083 [VLESS]
+      - لوفی 104.26.2.250:2053 [VLESS]
+      - لوفی 104.16.249.66:443 [VLESS]
+      - لوفی 198.41.223.78:2087 [VLESS]
+      - لوفی 104.17.29.37:2053 [VLESS]
+      - لوفی 108.162.198.185:443 [VLESS]
+      - لوفی 8.35.211.112:2087 [VLESS]
+      - لوفی 104.17.184.196:2087 [VLESS]
+      - لوفی 104.17.155.164:2096 [VLESS]
+      - لوفی 104.17.145.19:2083 [VLESS]
+      - لوفی 162.159.42.189:2096 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -185,22 +185,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - لوفی panel.djfjdi2828.workers.dev:443 [VLESS]
-      - لوفی 108.162.198.231:2087 [VLESS]
-      - لوفی 104.17.102.163:2083 [VLESS]
-      - لوفی 198.41.223.105:8443 [VLESS]
-      - لوفی 104.17.125.82:2087 [VLESS]
-      - لوفی 104.26.5.60:2083 [VLESS]
-      - لوفی 104.19.146.218:2087 [VLESS]
-      - لوفی 162.159.41.29:2096 [VLESS]
-      - لوفی 104.19.144.108:2087 [VLESS]
-      - لوفی 104.16.150.138:8443 [VLESS]
-      - لوفی 162.159.38.165:443 [VLESS]
-      - لوفی 104.17.186.90:2096 [VLESS]
-      - لوفی 172.67.67.200:2053 [VLESS]
-      - لوفی 104.17.56.158:2096 [VLESS]
-      - لوفی 198.41.223.205:8443 [VLESS]
-      - لوفی 172.67.64.184:2096 [VLESS]
-      - لوفی 91.193.58.150:8443 [VLESS]
+      - لوفی 104.19.147.138:8443 [VLESS]
+      - لوفی 162.159.46.91:443 [VLESS]
+      - لوفی 104.17.107.37:2053 [VLESS]
+      - لوفی 104.18.33.89:2096 [VLESS]
+      - لوفی 188.164.248.244:8443 [VLESS]
+      - لوفی 188.164.248.43:2083 [VLESS]
+      - لوفی 104.26.2.250:2053 [VLESS]
+      - لوفی 104.16.249.66:443 [VLESS]
+      - لوفی 198.41.223.78:2087 [VLESS]
+      - لوفی 104.17.29.37:2053 [VLESS]
+      - لوفی 108.162.198.185:443 [VLESS]
+      - لوفی 8.35.211.112:2087 [VLESS]
+      - لوفی 104.17.184.196:2087 [VLESS]
+      - لوفی 104.17.155.164:2096 [VLESS]
+      - لوفی 104.17.145.19:2083 [VLESS]
+      - لوفی 162.159.42.189:2096 [VLESS]
 rules:
   - DOMAIN-SUFFIX,play.googleapis.com,🚀 节点选择
   - DOMAIN-SUFFIX,play-fe.googleapis.com,🚀 节点选择
